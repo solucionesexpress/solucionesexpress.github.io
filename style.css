@@ -1,13 +1,4 @@
-/*
-<p class="text"> 
-                         <span class="text__first">
-                         <span class="text__word">Bienvenido a</span>
-                         <span class="text__first-bg"></span></span><br/>
-                         <span class="text__second">
-                         <span class="text__word">Soluciones Express</span>
-                         <span class="text__second-bg"></span>
-                         </span>
-                 </p>*/
+
 
 .text{
   display: inline-block;
