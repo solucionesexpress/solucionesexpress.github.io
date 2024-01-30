@@ -7,18 +7,46 @@
         <link href="cssBaner.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+             <nav class="navbar navbar-dark bg-dark bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Soluciones Express</a>
+    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas  offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header ">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Hola que deseas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="producto.html">Productos</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="Contactanos.html">contactanos</a>
+          </li>
+      
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+        
+        
+        <br>
         <div class="container text-center col-lg-auto col-md-auto mx-auto">
   <div class="row">
     <div class="col">
         <center><div id='telefono'>
-             <br>
-             <a href="https://api.whatsapp.com/send?phone=50431751518&text=hola">
+                <label><h3>Deseas Contactanos por whatsapp</h3>
+             <a href="https://api.whatsapp.com/send?phone=50431751518&text= ">
              <button type="button" class="btn btn-outline-primary">Contacto 1:+504 3175-1518</button>
              </a>
-       
-            <br>
-            <hr>
-            <a href="https://api.whatsapp.com/send?phone=50431592213&text=hola">
+            <a href="https://api.whatsapp.com/send?phone=50431592213&text= ">
              <button type="button" class="btn btn-outline-primary">Contacto 2:+504 3159-2213</button>   
             </a>
             </div></center>
@@ -29,7 +57,7 @@
    </div> 
      <div class="row align-items-center justify-content-center vh-100">
          <div class="col-lg-6 col-md-auto col-mx-12 border border-info-subtle shadow p-3 mb-5 bg-body-tertiary rounded position-absolute ">
-             <center><div><h2>Deseas  contactarnos por Correo</h2></div> </center>
+             <center><div><h3>Deseas  contactarnos por Correo</h3></div> </center>
              <form action="https://formsubmit.co/0736e13e9a3cc4d9a505b062b2ff564d" method="POST" />
                 <label for="Fnombre">Nombre:</label><br>
              <div>
@@ -55,7 +83,7 @@
 
         </div>
      </div>
-          </center>
+         
 
     </body>
 </html>
